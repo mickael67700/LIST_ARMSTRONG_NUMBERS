@@ -1,16 +1,12 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ARMSTRONG {
     public ARMSTRONG(int limit) {
-        String str = null;
+        String str;
         char ch;
         // Nombre limite pour calculer les nombres d'Armstrong int limit
 
-        int temp = 0;
+        int temp;
         // Boucle de nombres de 1 à nombre limite
         for (int number = 1; number <= limit; number++) {
             // Somme des digits composant le nombre
