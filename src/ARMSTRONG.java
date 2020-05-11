@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ARMSTRONG {
-    public ARMSTRONG(int limit) {
+    public static void CalculArstrongNumbers(int limit){
         String str;
         char ch;
         // Nombre limite pour calculer les nombres d'Armstrong int limit
@@ -37,13 +37,11 @@ public class ARMSTRONG {
                 System.out.println("Armstrong number : " + number);
         }
     }
-
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Limit : ");
         int limit = sc.nextInt();
-        ARMSTRONG armstrong = new ARMSTRONG(limit);
+        CalculArstrongNumbers(limit);
     }
 }
 
